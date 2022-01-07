@@ -30,6 +30,12 @@ app.get("/confirm", function (req, res) {
     res.render("confirm");
 });
 
+app.get("/restaurants/:rid", function (req, res) {
+    const restaurantId = req.params.rid;
+
+    res.render("restaurant-detail", { rid: restaurantId });
+});
+
 app.get("/recommend", function (req, res) {
     res.render("recommend");
 });
