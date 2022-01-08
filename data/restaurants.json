@@ -38,5 +38,13 @@
         "website": "https://hikmah2.co.id",
         "description": "Mantap Jiwa",
         "id": "c0610b89-2796-45fd-9da3-9532b0c28e56"
+    },
+    {
+        "name": "Azie Pempek's",
+        "address": "Jl.Azie",
+        "cuisine": "Indonesian",
+        "website": "https://PempekAzie.com",
+        "description": "Lemak nian",
+        "id": "63fcfc5c-b36d-484e-8f48-1778cac5267a"
     }
 ]

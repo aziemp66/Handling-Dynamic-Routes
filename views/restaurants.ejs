@@ -19,6 +19,10 @@
                 users!
             </p>
             <p>We found <%= numberOfRestaurants %> restaurants.</p>
+            <form action="/restaurants" method="get">
+                <input type="hidden" value="<%= nextOrder %>" name="order" />
+                <button class="btn">Change Order</button>
+            </form>
             <ul id="restaurants-list">
                 <% for (const restaurant of restaurants) { %>
                 <!-- prettier-ignore -->

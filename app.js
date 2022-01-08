@@ -17,11 +17,11 @@ app.use("/", defaultRoutes);
 app.use("/", restaurantRoutes);
 
 app.use(function (req, res) {
-    res.render("404");
+    res.status(404).render("404");
 });
 
 app.use(function (error, req, res, next) {
-    res.render("500");
+    res.status(500).render("500");
 });
 
 app.listen(3000);
